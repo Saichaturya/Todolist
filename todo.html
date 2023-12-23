@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ToDo App</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://play-lh.googleusercontent.com/wRotdGcsc2JwefLMShlLf0KtbLGbF1u3sDm95mxM-QHLx4HBW93pqVHmJblxRll8Qw" alt="App Logo" class="app-logo">
+      <h1>ToDo App</h1>
+    </div>
+    <div class="task-container">
+      <label for="taskInput">Add Task:</label>
+      <div class="add-task">
+        <input type="text" id="taskInput" placeholder="Enter task...">
+        <button onclick="addTask()">Add</button>
+      </div>
+    </div>
+    <div class="task-box" id="pendingTasksBox">
+      <h2>Pending Tasks</h2>
+      <ul id="pendingTasks"></ul>
+    </div>
+    <div class="task-box" id="completedTasksBox">
+      <h2>Completed Tasks</h2>
+      <ul id="completedTasks"></ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

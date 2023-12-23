@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://www.solidbackgrounds.com/images/1920x1200/1920x1200-dark-pink-solid-color-background.jpg') center/cover fixed; /* Background image for the entire page */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Dark gray text color */
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.5); /* White container background color with transparency */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  opacity: 0.9; /* Adjust the opacity of the container */
+  z-index: 1; /* Ensure the container is above the background image */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.app-logo {
+  width: 40px; /* Adjust the width as needed */
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+  color: black; /* Green heading text color */
+}
+
+
+
+.task-container {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.add-task {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+button {
+  padding: 8px 12px;
+  background-color:#1AA7EC; /* Orange button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+.task-box {
+  background-color: #ecf0f1; /* Light gray task box background color */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: black; /* Blue heading text color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #fff; /* White task item background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+button.task-action {
+  background-color: #e74c3c; /* Red button color */
+  color: #fff;
+  margin-left: 8px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.task-action:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
